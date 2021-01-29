@@ -1,0 +1,142 @@
+.heading{
+    float: left;
+}
+
+#pointer {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: black;
+    border: none;
+    color: white;
+    margin-right: 5%;
+  }
+  #pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid black;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+    
+  .milestoneInput{
+      margin: 5%;
+      margin-left: 11%;
+      background-color: black;
+      color: white;
+      border: 0;
+      width: 90%;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+ 
+  .milestone{
+      display: flex;
+      flex-direction: row;
+      margin-left: 1%;
+  }
+
+
+    #pointer2 {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        background: darkgray;
+        color: white;
+        padding-left: 25px;
+        border: none;
+        margin-left: 2%;
+        text-align: center;
+        padding-top: .8rem;
+        font-size: large;
+        cursor: pointer;
+        }
+        #pointer2:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 20px solid white;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        }
+        #pointer2:before {
+        content: "";
+        position: absolute;
+        right: -20px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 20px solid darkgray;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        }
+        
+#rectangle {
+    margin-top: 1%;
+    width: 200px;
+    height: 50px;
+    background: lightgrey;
+    border: 1px dashed black;
+    padding-top: 1%;
+    margin-bottom: 5%;
+}
+ 
+#pointer1 {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: lightgrey;
+    border: none;
+  }
+  #pointer1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer1:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid lightgrey;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+ 
+  #del{
+    height: 10px;
+    position: absolute;
+    margin-left: 13%;
+    top: 3.5%;
+    color: red;
+    font-size: larger;
+    cursor: pointer;
+  }
